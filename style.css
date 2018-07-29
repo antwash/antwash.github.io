@@ -2,11 +2,11 @@ html,
 body {
   height: 100%;
   font-size: 13px;
-  color: #fff;
-  font-family: 'Cabin', sans-serif;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
   display: flex;
   justify-content: center;
-  background-color: #121619;
+  background-color: #000000;
 }
 
 h1, h2 {
@@ -53,16 +53,6 @@ a {
   text-decoration: none;
 }
 
-.link {
-  cursor: pointer;
-  color: #039be5;
-  font-weight: bold;
-}
-
-p {
-  margin: 0;
-}
-
 hr {
   margin: 10px 0px;
 }
@@ -96,4 +86,10 @@ li {
   cursor: pointer;
   margin: 10px 10px 5px 0px;
   color: #263238;
+}
+
+.link {
+  cursor: pointer;
+  color: #039be5;
+  font-weight: bold;
 }
