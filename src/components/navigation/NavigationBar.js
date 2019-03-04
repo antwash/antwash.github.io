@@ -18,7 +18,7 @@ class NavigationBar extends Component {
 
   render() {
     var list_items = [];
-    const navItems = this.state.navItems;
+    const navItems = (this.state.navItems) ? this.state.navItems : [];
   
     for (var index = 0; index < navItems.length; index++) {
 

@@ -1,4 +1,5 @@
-body {
+body, html {
+  height: 100%;
   background-color: #303139;
   font-family: 'Roboto', sans-serif;
   font-family: 'Open Sans', sans-serif;
@@ -20,4 +21,16 @@ body {
   font-family: 'Open Sans';
   width: 40px;
   border:2px solid #BE0E0E; 
+}
+
+
+.footer-row {
+  background-color: blue;
+  justify-content: center;
+}
+
+.footer-item {
+  width: 25px;
+  height: 25px;
+  padding: 1em; 
 }
