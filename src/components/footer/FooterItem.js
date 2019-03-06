@@ -16,20 +16,17 @@ class FooterItem extends React.Component {
   }
 
   render() {
-    console.log("PROPS:", this.props.item);
     const title = (this.props.item) ? this.props.item.title: '';
     const imagePath = (this.props.item) ? this.props.item.imagePath: '';
 
     console.log.bind(process.env)
     return (
-      <div>
         <div className="footer-item">
           <img 
             alt={title} 
             src={imagePath}  
             onClick={this.visitURL}
           />
-        </div>
       </div>
     )
   }

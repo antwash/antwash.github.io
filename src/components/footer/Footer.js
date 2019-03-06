@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import { Row } from 'react-bootstrap'
 import FooterItem from './FooterItem'
 
 class Footer extends Component {
@@ -34,14 +33,12 @@ class Footer extends Component {
 
     for (var index = 0; index < contact_list.length; index++) {
       const contact_item = contact_list[index]
-      findMe_items.push(<FooterItem key={index} item={contact_item} />)
+      findMe_items.push(<FooterItem key={index} item={contact_item}  />)
     }
 
     return (
-      <div>
-        <Row className="footer-row">
-          { findMe_items }
-        </Row>
+      <div className="footer-row">
+        { findMe_items }
       </div>
     )
   }

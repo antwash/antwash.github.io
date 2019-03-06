@@ -25,12 +25,19 @@ body, html {
 
 
 .footer-row {
-  background-color: blue;
-  justify-content: center;
+  position: fixed;
+  bottom: 10px;
+  height: 30px;
+  width: 125px;
+  margin-left: 50%;
+  margin-right: 50%;
+  display: flex;
 }
 
 .footer-item {
-  width: 25px;
-  height: 25px;
-  padding: 1em; 
+  width: 30px;
+  height: 30px;
+  padding: 1mm;
+  cursor: pointer;
+  justify-content: center;
 }
