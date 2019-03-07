@@ -2,9 +2,8 @@ import React, { Component } from 'react'
 
 class Home extends Component {
   render() {
-    console.log("HOME")
     return(
-      <div>Home</div>
+      <div style={{color:'white'}}>Home</div>
     )
   }
 }

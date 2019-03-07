@@ -1,12 +1,12 @@
 import React, { Component } from "react";
-import NavigationBar from './components/navigation/NavigationBar'
-import Footer from './components/footer/Footer'
-import "./css/App.css";
-
 import { Route, Switch } from 'react-router-dom';
+
+import "./css/App.css";
 import Home from './pages/Home';
 import About from './pages/About';
 import Contact from './pages/Contact';
+import Footer from './components/footer/Footer'
+import NavigationBar from './components/navigation/NavigationBar'
 
 class App extends Component {
   render() {
@@ -15,8 +15,8 @@ class App extends Component {
         <NavigationBar />
           <Switch>
             <Route exact path="/" component={Home} />
-            <Route excat path="/about" component={About} />
-            <Route excat path="/contact" component={Contact} />
+            <Route exact path="/about" component={About} />
+            <Route exact path="/contact" component={Contact} />
           </Switch>
         <Footer />
       </div>

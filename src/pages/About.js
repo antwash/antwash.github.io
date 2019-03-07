@@ -2,9 +2,8 @@ import React, { Component } from 'react'
 
 class About extends Component {
   render() {
-    console.log("About")
     return(
-      <div>About</div>
+      <div style={{color:'white'}}>About</div>
     )
   }
 }

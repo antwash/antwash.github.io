@@ -2,9 +2,8 @@ import React, { Component } from 'react'
 
 class Contact extends Component {
   render() {
-    console.log("Contact")
     return(
-      <div>Contact</div>
+      <div style={{color:'white'}}>Contact</div>
     )
   }
 }
