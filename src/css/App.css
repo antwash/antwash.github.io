@@ -12,6 +12,7 @@ body, html {
   font-size: 20px;
   color: white;
   letter-spacing: 2px;
+  margin: 10px;
 }
 
 .brand-initial {
@@ -23,6 +24,14 @@ body, html {
   border:2px solid #BE0E0E; 
 }
 
+.navItem {
+  color: white;
+  padding: 5px;
+}
+.navItem:hover {
+  color: white;
+  text-decoration: none;
+}
 
 .footer-row {
   position: fixed;
