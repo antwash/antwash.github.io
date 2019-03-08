@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 class About extends Component {
   render() {
     return(
-      <div style={{color:'white'}}>About</div>
+      <div className="page-body">About</div>
     )
   }
 }

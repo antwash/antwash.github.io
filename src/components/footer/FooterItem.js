@@ -17,6 +17,8 @@ class FooterItem extends React.Component {
         <div className="footer-item">
         <a href={urlPath}>
           <img 
+            width='20'
+            height='20'
             alt={title} 
             src={imagePath}
           />

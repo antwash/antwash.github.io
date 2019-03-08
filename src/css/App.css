@@ -26,7 +26,7 @@ body, html {
 
 .navItem {
   color: white;
-  padding: 5px;
+  padding: 10px;
 }
 .navItem:hover {
   color: white;
@@ -44,9 +44,33 @@ body, html {
 }
 
 .footer-item {
-  width: 30px;
-  height: 30px;
-  padding: 1mm;
+  padding: 0.5mm;
   cursor: pointer;
   justify-content: center;
 }
+
+.page-body {
+  height: 50%;
+  background: #BE0E0E;
+  margin-left: 20%;
+  margin-right: 20%;
+  color: white;
+}
+
+.welcome-text {
+  font-family: 'Roboto';
+  font-weight: 100;
+  font-size: 30px;
+  margin-top: 0;
+  text-align: center;
+}
+
+.center {
+  display: inline-table;
+  height: 33%;
+  width:100%;
+  margin: 0 auto;
+  padding: 5mm;
+  border: 1px solid white;
+}
+
