@@ -43,6 +43,12 @@ body, html {
   display: flex;
 }
 
+.divider {
+  height: 2px;
+  background: #BE0E0E;
+  margin: 0%;
+}
+
 .footer-item {
   padding: 0.5mm;
   cursor: pointer;
@@ -50,27 +56,46 @@ body, html {
 }
 
 .page-body {
-  height: 50%;
-  background: #BE0E0E;
+  height: 100%;
   margin-left: 20%;
   margin-right: 20%;
   color: white;
-}
-
-.welcome-text {
-  font-family: 'Roboto';
   font-weight: 100;
-  font-size: 30px;
-  margin-top: 0;
-  text-align: center;
+  font-size: 35px;
+  font-family: 'Roboto'
 }
 
-.center {
+.center1 {
   display: inline-table;
-  height: 33%;
-  width:100%;
+  height: 100%;
+  width: 100%;
   margin: 0 auto;
   padding: 5mm;
-  border: 1px solid white;
+  background: green;
+}
+
+#border-bottom{
+  border-bottom: 1px solid red;
+  bottom: 50%;
+}
+
+.center2 {
+  display: inline-table;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  padding: 5mm;
+  background: purple;
+  /* border-bottom: 1px solid red; */
+  text-align: right;
+}
+.center3 {
+  display: inline-table;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  padding: 5mm;
+  background: blue;
+  /* border-bottom: 1px solid red; */
 }
 

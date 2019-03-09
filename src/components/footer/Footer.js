@@ -7,19 +7,28 @@ class Footer extends Component {
 
     this.state = {
       findMe : [
-        { title: 'Github',
+  
+        { 
+          id:'1',
+          title: 'Github',
           url: 'https://github.com/antwash',
           imagePath: '/icons/github.svg'
         },
-        { title: 'LinkedIn',
+        { 
+          id:'2',
+          title: 'LinkedIn',
           url: 'https://www.linkedin.com/in/antdwash/',
           imagePath: '/icons/linkedin.svg'
         },
-        { title: 'Twitter',
+        { 
+          id:'3',
+          title: 'Twitter',
           url: 'https://twitter.com/antdwash',
           imagePath: '/icons/twitter.svg'
         },
-        { title: 'Youtube',
+        { 
+          id:'4ß',
+          title: 'Youtube',
           url: 'https://www.youtube.com/c/antdwash',
           imagePath: '/icons/youtube.svg'
         }
@@ -28,17 +37,12 @@ class Footer extends Component {
   }
 
   render() {
-    var findMe_items = []
     const contact_list = (this.state.findMe) ? this.state.findMe : [];
-
-    for (var index = 0; index < contact_list.length; index++) {
-      const contact_item = contact_list[index]
-      findMe_items.push(<FooterItem key={index} item={contact_item}  />)
-    }
+    const contactComponents = contact_list.map(contact => (<FooterItem key={contact.id} />))
 
     return (
       <div className="footer-row">
-        { findMe_items }
+        { contactComponents }
       </div>
     )
   }
